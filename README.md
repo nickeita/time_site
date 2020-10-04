@@ -1,6 +1,6 @@
 # time_site
 
-A new Flutter project.
+The purpose of this app is to eliminate the need to manually convert timezones. When you select a contact to compose a messsage you will be able to automatically see the actual time for their location along with their timezone.
 
 ## Getting Started
 
