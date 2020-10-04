@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "626351248691",
+    "firebase_url": "https://ivyhacks-e8067.firebaseio.com",
+    "project_id": "ivyhacks-e8067",
+    "storage_bucket": "ivyhacks-e8067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626351248691:android:3985629ea898d580465a46",
+        "android_client_info": {
+          "package_name": "com.example.time_site"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626351248691-4h6mq1tnjcqvbjbrtmj6350u99eumoj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8MPMlgyKaDKqg4WX2TesK71Swgj4ke4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626351248691-4h6mq1tnjcqvbjbrtmj6350u99eumoj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
