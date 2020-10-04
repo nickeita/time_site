@@ -60,9 +60,9 @@ class App extends StatelessWidget {
       future: _initialization,
       builder: (context, snapshot) {
         // Check for errors
-        if (snapshot.hasError) {
-          return SomethingWentWrong();
-        }
+        // if (snapshot.hasError) {
+        //   return SomethingWentWrong();
+        // }
 
         // Once complete, show your application
         if (snapshot.connectionState == ConnectionState.done) {
@@ -70,29 +70,29 @@ class App extends StatelessWidget {
         }
 
         // Otherwise, show something whilst waiting for initialization to complete
-        return Loading();
+        // return Loading();
       },
     );
   }
 }
 
-class SomethingWentWrong extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Center(child: Text('Something Went Wrong')),
-    );
-  }
-}
+// class SomethingWentWrong extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       child: Center(child: Text('Something Went Wrong')),
+//     );
+//   }
+// }
 
-class Loading extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Center(child: Text('Loading')),
-    );
-  }
-}
+// class Loading extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       child: Center(child: Text('Loading')),
+//     );
+//   }
+// }
 
 class TimeSite extends StatelessWidget {
   @override
